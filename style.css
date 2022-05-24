@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.wrapper {
+    width: 1060px;
+    margin: 160px auto 135px;
+    font-size: 0;
+
+}
+
+.wrapper__image {
+    width: inherit;
+    height: auto;
+    object-fit: cover;
+   
+
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*------- page Home -------*/
+.content {
+    margin: 0 0 55px 0;
+    /*у последнего блока оставил отступ, так как считаю что так лучше смотрится*/
+}
+
+
+.content__title {
+    margin: 0 0 40px 0;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.content__text {
+    margin: 0 0 15px 0;
+}
+
+.content__link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*------- page About -------*/
+
+.about {
+    margin: 0 0 55px 0;
+}
+
+.about__suptitle {
+    color: #b4ad9e;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 30px 0;
+
+}
+
+.about__text {
+    margin: 0;
+}
+
+.about__text span {
+    font-weight: 900;
+}
+
+.about h2+p {
+    margin: 0 0 25px 0;
+}
+
+.gallery {
+    margin: 0 0 50px 0;
+}
+
+.gallery__image {
+    margin: 0 0 50px 0;
+}
+
+.gallery__image:last-child {
+    margin: 0;
+}
+
+.quote {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.quote+p {
+    margin: 0;
+}
+
+.quote+p span {
+    font-weight: 900;
+}
